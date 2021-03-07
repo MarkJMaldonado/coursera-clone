@@ -1,20 +1,30 @@
                         .lineal {
-                            align-items: flex-start;
-                            margin: 0 10px 0 0;
+                            align-items: center;
+                            margin: 0 20px 0 20px;
                             list-style-type: none;
                             text-align: center;
                             transition: all 0.45 linear;
-                            display: inline-block;
+                            display: flex;
+                            justify-content: space-between;
                         }
                         
                         header {
-                            display: flex;
-                            justify-content: space-between;
-                            align-content: center;
                             position: fixed;
                             left: 0;
                             top: 0;
                             right: 0;
+                            padding: 2rem 0;
+                            background-color: white;
+                        }
+                        
+                        .navi ul {
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                        }
+                        
+                        .navi ul li {
+                            display: inline-block;
                         }
                         
                         .dropdown-button {
@@ -29,6 +39,15 @@
                         .dropdown-box {
                             position: relative;
                             display: inline-block;
+                        }
+                        
+                        .dropdown-button1 {
+                            background-color: white;
+                            border: 0;
+                            color: black;
+                            height: 35px;
+                            width: 90px;
+                            font-size: medium;
                         }
                         
                         .dropdown-list {
@@ -93,4 +112,9 @@
                             height: 35px;
                             width: 150px;
                             font-size: medium;
+                        }
+                        
+                        body {
+                            border: 0;
+                            margin: 0 0 0 0;
                         }
