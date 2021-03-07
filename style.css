@@ -1,79 +1,96 @@
-    #lineal {
-        justify-content: space-around;
-        display: inline-block;
-        flex-direction: inherit;
-    }
-    
-    .dropdown-button {
-        background-color: rgb(47, 92, 241);
-        border: 16px;
-        color: white;
-        height: 35px;
-        width: 90px;
-        font-size: medium;
-    }
-    
-    .dropdown-box {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .dropdown-list {
-        display: none;
-        position: absolute;
-        background-color: grey;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    
-    .dropdown-list a {
-        color: black;
-        padding: 12px 1 6px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    .dropdown-list a:hover {
-        background-color: rgb(168, 205, 248);
-    }
-    
-    .dropdown-box:hover .dropdown-list {
-        display: block;
-    }
-    
-    .dropdown-box:hover .dropdown-button {
-        background-color: rgb(137, 195, 241);
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    form.search-button input[type=text] {
-        padding: 10px;
-        font-size: 17px;
-        border: 1px solid rgb(11, 3, 133);
-        float: left;
-        width: 80%;
-        background: #116af0
-    }
-    
-    form.search-button button:hover {
-        bakgroud: #195586;
-    }
-    
-    form.search-button::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    
-    .join {
-        background-color: rgb(47, 92, 241);
-        border: 16px;
-        color: white;
-        height: 35px;
-        width: 150px;
-        font-size: medium;
-    }
+                        .lineal {
+                            align-items: flex-start;
+                            margin: 0 10px 0 0;
+                            list-style-type: none;
+                            text-align: center;
+                            transition: all 0.45 linear;
+                            display: inline-block;
+                        }
+                        
+                        header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-content: center;
+                            position: fixed;
+                            left: 0;
+                            top: 0;
+                            right: 0;
+                        }
+                        
+                        .dropdown-button {
+                            background-color: rgb(47, 92, 241);
+                            border: 16px;
+                            color: white;
+                            height: 35px;
+                            width: 90px;
+                            font-size: medium;
+                        }
+                        
+                        .dropdown-box {
+                            position: relative;
+                            display: inline-block;
+                        }
+                        
+                        .dropdown-list {
+                            display: none;
+                            position: absolute;
+                            background-color: rgb(228, 225, 225);
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                            z-index: 1;
+                        }
+                        
+                        .dropdown-list a {
+                            color: black;
+                            padding: 12px 1 6px;
+                            text-decoration: none;
+                            display: block;
+                        }
+                        
+                        .dropdown-list a:hover {
+                            background-color: rgb(168, 205, 248);
+                        }
+                        
+                        .dropdown-box:hover .dropdown-list {
+                            display: block;
+                        }
+                        
+                        .dropdown-box:hover .dropdown-button {
+                            background-color: rgb(137, 195, 241);
+                        }
+                        
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        form.search-button input[type=text] {
+                            padding: 10px;
+                            font-size: 17px;
+                            border: 1px solid rgb(11, 3, 133);
+                            float: left;
+                            width: 80%;
+                            background: #116af0;
+                        }
+                        
+                        form.search-button button:hover {
+                            bakgroud: #195586;
+                        }
+                        
+                        form.search-button::after {
+                            content: "";
+                            clear: both;
+                            display: table;
+                        }
+                        
+                        main {
+                            padding-top: 12rem;
+                        }
+                        
+                        .join {
+                            background-color: rgb(47, 92, 241);
+                            border: 16px;
+                            color: white;
+                            height: 35px;
+                            width: 150px;
+                            font-size: medium;
+                        }
