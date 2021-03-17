@@ -225,7 +225,66 @@
                 border: 0px;
                 margin: 0px 0px 0px 0px;
             }
+            /*    ---- Section de Universidades ----      */
             
             .universities {
-                margin: ;
+                padding: 34px 0px;
+                background-color: #f5f5f5;
+                width: 100vw;
+                height: 200px;
+            }
+            
+            .unicomp {
+                font-size: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 5px;
+            }
+            
+            .unicomp p a {
+                color: #0056D2;
+            }
+            
+            .uni-links {
+                padding: 0px 10px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            /**/
+            
+            .uni-links a img {
+                width: 140px;
+                height: 30px;
+                padding: 64px 0px;
+            }
+            /*
+            .uni-links a .mich {
+                width: 70px;
+                height: 70px;
+                padding: 64px 0px;
+                margin-bottom: auto;
+            }
+            
+            .uni-links a .dgi {
+                width: 80px;
+                height: 40px;
+                padding: 64px 0px;
+                margin-bottom: auto;
+            }
+            /*
+            margin: 0 auto;
+            min-height: 299px;
+                max-width: 100%;
+             */
+            
+            .achieve {
+                display: grid;
+                padding: 64px 0px;
+                justify-content: center;
+            }
+            
+            .achieve-options {
+                grid-template-columns: repeat(4, 1fr);
             }
