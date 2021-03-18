@@ -3,6 +3,7 @@
            :root {
               --blue: #0056D2;
           }
+          /*    ---- Header  ------*/
           
           .lineal {
               align-items: center;
@@ -41,6 +42,7 @@
               margin: 0px 15px 0px 5px;
               font-size: 33px;
               color: rgb(58, 100, 228);
+              font-weight: 1000;
           }
           
           .dropdown-button {
@@ -172,6 +174,7 @@
           
           * {
               box-sizing: border-box;
+              font-family: "Source Sans Pro", Arial, sans-serif;
           }
           
           form.search-button input[type=text] {
@@ -200,21 +203,6 @@
               padding: 2px;
               min-width: 18px!important;
           }
-          /*
-            form.search-button button:hover {
-                background-color: rgb(58, 100, 228);
-            }
-                        +++  ASK ABOUT THIS++++
-            form.search-button::after {
-                content: "";
-                clear: both;
-                display: table;
-            }
-            */
-          
-          main {
-              padding-top: 2rem;
-          }
           
           .join {
               background-color: rgb(58, 100, 228);
@@ -225,10 +213,15 @@
               font-size: medium;
               margin: 0px 5px 0px 15px;
           }
+          /* --  general --   */
+          
+          main {
+              padding-top: 2rem;
+          }
           
           body {
               border: 0px;
-              margin: 0px 0px 0px 0px;
+              margin: 12px 0px 0px 0px;
           }
           /*      ---- 1st section ----          */
           
@@ -236,18 +229,25 @@
               display: flex;
               align-items: center;
               justify-content: space-between;
+              padding: 28px;
+          }
+          
+          .hero div img {
+              width: 100%;
+              max-height: 350px;
+              max-width: 350px;
+              padding-right: 24px;
           }
           
           .hero .hero-title {
               margin-left: 96px;
-              margin-right: 32px;
               max-width: 436px;
               width: 100%;
           }
           
           .hero .title {
               font-family: 'Source Sans Pro', sans-serif;
-              font-size: 84px;
+              font-size: 64px;
           }
           
           .hero .subtitle {
@@ -259,43 +259,29 @@
           
           .hero .button {
               background-color: var(--blue);
-              padding: 24px;
+              padding: 12px;
               color: #fff;
               border: none;
               border-radius: 4px;
               font-family: 'Source Sans Pro', sans-serif;
               font-weight: bold;
               font-size: 20px;
-              width: 240px;
-          }
-          /*    ---- Section de Universidades ----      */
-          
-          .achieve {
-              display: grid;
-              padding: 64px 0px;
-              justify-content: center;
-          }
-          
-          .achieve-options {
-              grid-template-columns: repeat(4, 1fr);
+              width: 180px;
           }
           /* --------------- 3rd section partners -----------*/
           
           .universities {
               margin: 24px 0;
-              padding: 64px 0;
+              padding: 44px 10px;
               background-color: #f5f5f5;
           }
           
           .unicomp {
               font-family: 'Source Sans Pro', sans-serif;
-              font-size: 28px;
+              font-size: 30px;
               font-style: none;
               text-align: center;
-          }
-          
-          .unicomp p {
-              margin-bottom: 44px;
+              font-weight: 800;
           }
           
           .unicomp a,
@@ -311,8 +297,51 @@
           
           .universities .uni-links {
               display: flex;
+              align-items: center;
               justify-content: space-evenly;
+              margin: 0px auto;
+              max-width: 1132px;
+              width: 100%;
           }
+          
+          .universities .uni-links a img {
+              width: 100%;
+              max-height: 100px;
+              max-width: 100px;
+          }
+          /* ---- 4th Section de Universidades ----      */
+          
+          .achieve {
+              display: flex;
+              flex-direction: column;
+              align-content: space-around;
+              padding: 64px 60px;
+              justify-content: center;
+          }
+          
+          .achieve .achieve-tittle {
+              font-weight: 500;
+              margin-bottom: 40px;
+              text-align: center;
+              font-size: 30px;
+              font-family: "Source Sans Pro", Arial, sans-serif;
+          }
+          
+          .achieve .achieve-options {
+              display: grid;
+              grid-template-columns: 220px 220px 220px 220px;
+              justify-content: space-evenly;
+              align-content: center;
+              gap: 25px;
+          }
+          
+          .achieve-options section h3 img p {
+              font-size: 20px;
+              margin: 16px 0px;
+              text-align: center;
+              justify-content: center;
+          }
+          /*  --  Queries  --*/
           
           @media (max-width: 991px) {
               .navi {
