@@ -1,0 +1,409 @@
+              /* Variables */
+              
+               :root {
+                  --blue: #0056D2;
+              }
+              /*    ---- Header  ------*/
+              
+              .lineal {
+                  align-items: center;
+                  margin: 0 20px 0 20px;
+                  list-style-type: none;
+                  text-align: center;
+                  transition: all 0.45 linear;
+                  display: flex;
+                  justify-content: space-between;
+              }
+              
+              header {
+                  margin: 0px 0px 0px 0px;
+                  position: fixed;
+                  left: 0;
+                  top: 0;
+                  right: 0;
+                  padding-top: 5px;
+                  padding-bottom: 8px;
+                  background-color: white;
+                  justify-content: center;
+                  border-bottom: 1px solid rgba(190, 185, 185, 0.671);
+              }
+              
+              .navi ul {
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+              }
+              
+              .navi ul li {
+                  display: inline-block;
+              }
+              
+              .coursera {
+                  margin: 0px 15px 0px 5px;
+                  font-size: 33px;
+                  color: rgb(58, 100, 228);
+                  font-weight: 1000;
+                  align-content: center;
+              }
+              
+              .dropdown-button {
+                  background-color: rgb(58, 100, 228);
+                  border: 16px;
+                  border-radius: 3px;
+                  color: white;
+                  height: 35px;
+                  width: 90px;
+                  font-size: 15px;
+                  margin: 0px 15px 0px 5px;
+                  font-weight: 600;
+              }
+              
+              .dropdown-box {
+                  position: relative;
+                  display: inline-block;
+              }
+              /*
+                        
+                        .dropdown-button1 {
+                            background-color: white;
+                            border: 0;
+                            color: black;
+                            height: 35px;
+                            width: 90px;
+                            font-size: medium;
+                        }
+                        
+                        .dropdown-button1 :hover {
+                            box-shadow: 0px 8px 16px 0px rgba(80, 80, 80, 0.2);
+                        }
+                        
+                        */
+              
+              .dropdown-list {
+                  display: none;
+                  position: absolute;
+                  background-color: rgb(228, 225, 225);
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                  z-index: 1;
+              }
+              
+              .dropdown-list a {
+                  color: black;
+                  padding: 12px 1 6px;
+                  text-decoration: none;
+                  display: block;
+              }
+              
+              .dropdown-list a:hover {
+                  background-color: rgb(168, 205, 248);
+              }
+              
+              .dropdown-box:hover .dropdown-list {
+                  display: block;
+              }
+              
+              .dropdown-box:hover .dropdown-button {
+                  background-color: rgb(137, 195, 241);
+              }
+              
+              .dropdown-button1 {
+                  background-color: white;
+                  border: 0;
+                  color: rgb(17, 17, 17);
+                  height: 0;
+                  width: 90px;
+                  font-size: 15px;
+                  margin: 0px 5px 0px 15px;
+              }
+              
+              .dropdown-box1 {
+                  position: relative;
+                  display: inline-block;
+              }
+              
+              .dropdown-list1 {
+                  display: none;
+                  position: absolute;
+                  background-color: rgb(252, 252, 252);
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(56, 55, 55, 0.2);
+                  z-index: 1;
+              }
+              
+              .dropdown-list1 a {
+                  color: black;
+                  padding: 12px 1 6px;
+                  text-decoration: none;
+                  display: block;
+              }
+              
+              .dropdown-list1 a:hover {
+                  background-color: rgb(168, 205, 248);
+              }
+              
+              .dropdown-box1:hover .dropdown-list1 {
+                  display: block;
+              }
+              
+              .dropdown-box1:hover .dropdown-button1 {
+                  background-color: rgb(137, 195, 241);
+              }
+              
+              .students {
+                  margin: 0px 5px 0px 15px;
+                  text-decoration: none;
+                  font-size: 15px;
+                  color: black;
+              }
+              
+              .students:hover {
+                  text-decoration: underline;
+                  color: rgb(55, 55, 233);
+              }
+              
+              .log {
+                  margin: 0px 5px 0px 15px;
+                  text-decoration: none;
+                  color: rgb(55, 55, 233);
+                  font-size: 15px;
+              }
+              
+              .log:hover {
+                  text-decoration: underline
+              }
+              
+              * {
+                  box-sizing: border-box;
+                  font-family: "Source Sans Pro", Arial, sans-serif;
+              }
+              
+              form.search-button input[type=text] {
+                  padding: 0 10px;
+                  font-size: 20px;
+                  border: 1px solid rgb(11, 3, 133);
+                  float: left;
+                  width: 100%;
+                  height: 100%;
+                  background: #116af0;
+              }
+              
+              form.search-button button {
+                  padding: 0 15px;
+                  background: rgb(58, 100, 228);
+                  border: none;
+                  cursor: pointer;
+                  font-size: 17px;
+                  color: #fff;
+              }
+              
+              #buttonli form {
+                  display: flex;
+                  height: 40px;
+                  border-radius: 2px;
+                  padding: 2px;
+                  min-width: 18px!important;
+              }
+              
+              .join {
+                  background-color: rgb(58, 100, 228);
+                  border: 16px;
+                  color: white;
+                  height: 35px;
+                  width: 150px;
+                  font-size: medium;
+                  margin: 0px 5px 0px 15px;
+              }
+              /* --  general --   */
+              
+              main {
+                  padding-top: 5rem;
+              }
+              
+              body {
+                  border: 0px;
+              }
+              /*      ---- 1st section ----          */
+              
+              .hero {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  padding: 28px;
+                  max-width: 100%;
+              }
+              
+              .hero div img {
+                  min-height: 70%;
+                  min-width: 70%;
+                  max-height: 100%;
+                  max-width: 100%;
+                  width: 500px;
+              }
+              
+              .hero .hero-title {
+                  margin-left: 96px;
+                  max-width: 100%;
+                  align-content: center;
+              }
+              
+              .hero .title {
+                  font-family: 'Source Sans Pro', sans-serif;
+                  font-size: 64px;
+                  max-width: 100%;
+              }
+              
+              .hero .subtitle {
+                  font-family: 'Source Sans Pro', sans-serif;
+                  font-size: 20px;
+                  margin-top: 24px;
+                  margin-bottom: 24px;
+                  max-width: 100%;
+              }
+              
+              .hero .button {
+                  background-color: var(--blue);
+                  padding: 12px;
+                  color: #fff;
+                  border: none;
+                  border-radius: 4px;
+                  font-family: 'Source Sans Pro', sans-serif;
+                  font-weight: bold;
+                  font-size: 20px;
+                  width: 180px;
+              }
+              /* --------------- 2nd section partners -----------*/
+              
+              .universities {
+                  margin: 24px 0;
+                  padding: 44px 10px;
+                  background-color: #f5f5f5;
+              }
+              
+              .unicomp {
+                  font-family: 'Source Sans Pro', sans-serif;
+                  font-size: 50px;
+                  font-style: none;
+                  text-align: center;
+                  font-weight: 800;
+              }
+              
+              .unicomp a,
+              a:visited,
+              a:hover {
+                  color: var(--blue);
+                  text-decoration: none;
+              }
+              
+              .unicomp a:hover {
+                  text-decoration: underline;
+              }
+              
+              .universities .uni-links {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-evenly;
+                  margin: 0px auto;
+                  max-width: 1132px;
+                  width: 100%;
+              }
+              
+              .universities .uni-links a img {
+                  width: 100%;
+                  max-height: 100px;
+                  max-width: 100px;
+                  vertical-align: middle;
+              }
+              /* ---- 3rd Section de Universidades ----      */
+              
+              .achieve {
+                  display: flex;
+                  flex-direction: column;
+                  align-content: space-around;
+                  padding: 64px 60px;
+                  justify-content: center;
+                  max-width: 100%;
+              }
+              
+              .achieve .achieve-tittle {
+                  font-weight: 500;
+                  margin-bottom: 40px;
+                  text-align: center;
+                  font-size: 30px;
+                  font-family: "Source Sans Pro", Arial, sans-serif;
+              }
+              
+              .achieve .achieve-options {
+                  display: grid;
+                  grid-template-columns: 220px 220px 220px 220px;
+                  justify-content: space-evenly;
+                  align-content: center;
+                  gap: 25px;
+              }
+              
+              .achieve-options section h3,
+              img,
+              p {
+                  align-content: center;
+                  font-size: 20px;
+                  margin: 16px 0px;
+                  text-align: center;
+                  justify-content: center;
+              }
+              /*  --  Queries  --*/
+              
+              @media screen and (max-width: 991px) {
+                  body {
+                      max-width: 100%;
+                      border: 0px;
+                  }
+                  .dropdown-button {
+                      display: none;
+                  }
+                  main {
+                      padding-top: 5rem;
+                  }
+                  .coursera {
+                      align-content: center;
+                  }
+                  .media {
+                      display: none;
+                  }
+                  .lineal {
+                      justify-content: flex-end;
+                  }
+                  .coursera {
+                      max-width: 100%;
+                  }
+                  .hero {
+                      justify-content: center;
+                  }
+                  .hero div {
+                      max-width: 20%;
+                  }
+                  .hero .hero-title {
+                      max-width: 100%;
+                      margin-left: auto
+                  }
+                  .achieve .achieve-options {
+                      grid-template-columns: 220px 220px;
+                  }
+                  .navi {
+                      display: block;
+                      top: 100%;
+                  }
+              }
+              
+              @media screen and (max-width: 760px) {
+                  .hero div img {
+                      display: none;
+                  }
+                  .hero .button {
+                      margin-bottom: 36px;
+                      width: 80%;
+                      height: auto;
+                  }
+                  .hero {
+                      justify-content: center;
+                  }
+              }
